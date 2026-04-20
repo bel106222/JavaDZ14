@@ -9,6 +9,10 @@ public class IntegerSet {
         this.numbers = new ArrayList<>();
     }
 
+    public IntegerSet(List<Integer>numbers) {
+        this.numbers = numbers;
+    }
+
     public void add(int number) {
         numbers.add(number);
     }

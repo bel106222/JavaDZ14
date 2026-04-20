@@ -24,7 +24,9 @@ public class Main {
         IntegerSet ints = new IntegerSet();
         ints.add(1);
         ints.add(2);
-
         System.out.println(ints.sum());
+
+        Number number = new Number(255, new DefaultNumberConversionService());
+        System.out.println(number.toString());
     }
 }
